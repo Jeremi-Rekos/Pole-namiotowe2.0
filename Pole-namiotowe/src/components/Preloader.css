@@ -1,0 +1,27 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  background-color: white;
+  color: #228b22;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-family: "Outfit", sans-serif;
+}
+
+.preloader-logo {
+  width: 180px;
+  height: 180px;
+  animation: spin 5.2s linear infinite;
+  margin-bottom: 16px;
+  border: 3px solid #228b22;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

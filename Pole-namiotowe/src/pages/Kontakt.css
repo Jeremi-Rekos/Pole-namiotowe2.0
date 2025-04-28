@@ -1,0 +1,94 @@
+.kontakt {
+  font-family: "Outfit", sans-serif;
+  padding: 60px 40px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.kontakt-naglowek {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  color: #228b22;
+}
+
+.kontakt-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.lewa-kolumna {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.prawa-kolumna {
+  flex: 1 1 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mapa {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+}
+
+.placeholder {
+  background-color: #e2e2e2;
+  color: #555;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.formularz {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formularz label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  color: #333;
+}
+
+.formularz input,
+.formularz textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.formularz textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.formularz button {
+  padding: 12px 20px;
+  background-color: #228b22;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.formularz button:hover {
+  background-color: #1b701b;
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* === TRYB CIEMNY === */
+body.dark {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+body.dark header,
+body.dark footer {
+  background-color: #1e1e1e;
+}
+
+body.dark a {
+  color: #90ee90;
+}
+
+body.dark .galeria-item img {
+  filter: brightness(0.8);
+}
+
+header,
+footer,
+.navbar,
+.nav-links a,
+button,
+input,
+textarea {
+  transition: background-color 0.3s ease, color 0.3s ease, filter 0.3s ease;
+}
+body.dark .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+body.dark .lamanka {
+  filter: invert(0.93);
+}
+body.dark .grey-box {
+  background-color: #0e0e0e;
+}
+body.dark .slogan {
+  color: #228b22;
+}
+body.dark .slogan span {
+  color: #ffffff;
+}

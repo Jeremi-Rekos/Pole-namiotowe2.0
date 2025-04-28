@@ -1,0 +1,49 @@
+.galeria {
+  font-family: "Outfit", sans-serif;
+  padding: 40px 20px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.galeria h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #228b22;
+  margin-bottom: 10px;
+}
+
+.galeria p {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.galeria-grid {
+  column-count: 3;
+  column-gap: 20px;
+  padding: 0 10px;
+}
+
+.galeria-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.galeria-item:hover {
+  transform: scale(1.03);
+}
+
+.galeria-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
