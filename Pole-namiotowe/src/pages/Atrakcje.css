@@ -1,65 +1,48 @@
 .atrakcje {
   font-family: "Outfit", sans-serif;
-}
-
-.zielony-blok {
-  background-color: #228b22;
-  color: white;
   padding: 40px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  align-items: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.lewa-kolumna {
-  flex: 1 1 400px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.atrakcje h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #228b22;
 }
 
-.naglowek-bloku {
-  font-size: 2rem;
+.at-section {
+  margin-bottom: 50px;
+}
+
+.at-section h2 {
+  text-align: center;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.lista-atrakcji {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.lista-atrakcji li {
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.ikona {
-  font-size: 1.5rem;
-}
-
-.prawa-kolumna {
-  flex: 1 1 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.miejsce-na-zdjecie {
+.at-section table {
   width: 100%;
-  max-width: 400px;
-  height: 260px;
-  background-color: #eee;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #666;
-  font-style: italic;
+  border-collapse: collapse;
+}
+
+.at-section td {
+  padding: 16px;
+  font-size: 1.1rem;
+}
+
+.at-section tr:nth-child(odd) {
+  background-color: #228b22;
+  color: white;
+}
+
+.at-section tr:nth-child(even) {
+  background-color: #444;
+  color: white;
+}
+
+.at-section:last-of-type tr {
+  background-color: #ddd;
+  color: black;
 }

@@ -142,9 +142,45 @@ h2 {
   margin-bottom: 15px;
 }
 .img15 {
-  width: 100%;
-  max-width: 850px;
-  height: auto;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-  margin: 0px 50px 0px 50px;
+  margin: 0px 200px 0px 00px;
+  border: 10px solid #228b22;
+}
+.img15 img {
+  max-height: 800px;
+}
+.dojazd {
+  margin-top: 100px;
+}
+.dojazd-text {
+  background-color: #f1f1f1;
+  height: 800px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 10px solid #228b22;
+}
+.dojazd-text p {
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  margin-top: 50px;
+  color: #000000;
+}
+.lines {
+  height: 2px;
+  width: 850px;
+  background-color: #228b22;
+}
+.lines1 {
+  position: absolute;
+  top: 205px;
+  right: 0px;
+}
+.lines2 {
+  position: absolute;
+  top: 210px;
+  left: 0px;
 }

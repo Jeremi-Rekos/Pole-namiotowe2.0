@@ -28,6 +28,7 @@ function Home() {
         </div>
         <div className="intro-text">
           <h2>Tekst Zachęcający do pobytu</h2>
+          <div className="lines lines1"></div>
           <p>
             Zapraszamy do wyjątkowego miejsca wypoczynku. U nas znajdziesz
             ciszę, naturę i idealne warunki do relaksu. Wspaniała lokalizacja,
@@ -49,6 +50,8 @@ function Home() {
         </div>
         <div className="double-text">
           <h2>Kolejny Tekst Zachęcający do pobytu</h2>
+          <div className="lines lines2"></div>
+
           <p>
             W pobliżu znajduje się jezioro i miejsce na grilla, co sprawia że to
             idealne miejsce na wakacje z rodziną lub przyjaciółmi. W pobliżu
@@ -82,15 +85,26 @@ function Home() {
 
       {/* Sekcja 4 – Dojazd */}
       <section className="section dojazd">
-        <div className="dojazd-text">
-          <h5>Krótki opis jak dojechać</h5>
-          <p>
-            Dojazd jest prosty – kieruj się na jezioro i skręć w prawo za
-            znakiem. Dokładna lokalizacja dostępna poniżej.
-          </p>
-        </div>
         <div className="img15">
           <img src={img15} alt="Zdjęcie przedstawiające atrakcje" />
+        </div>
+        <div className="dojazd-text">
+          <p>
+            Dojazd jest prosty – kieruj się na jezioro i skręć w prawo za
+            znakiem. Dokładna lokalizacja dostępna poniżej. Dojazd jest prosty –
+            kieruj się na jezioro i skręć w prawo za znakiem. Dokładna
+            lokalizacja dostępna poniżej.
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4986679963413!2d16.2090612!3d51.927006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705c3fe5b8a8411%3A0x973a7fdcfe349153!2sCamping%20KACPER!5e1!3m2!1sen!2spl!4v1745942553231!5m2!1sen!2spl"
+            width="100%"
+            height="50%"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Mapa lokalizacji"
+          />
         </div>
       </section>
 
