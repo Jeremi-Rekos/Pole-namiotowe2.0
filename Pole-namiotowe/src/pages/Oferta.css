@@ -10,10 +10,11 @@
   text-align: center;
   max-width: 800px;
   margin: auto;
+  font-size: 1.5rem;
 }
 
 .oferta-header h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #228b22;
   margin-bottom: 20px;
 }
@@ -27,21 +28,23 @@
 
 .box {
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 30px;
   border-left: 5px solid #228b22;
   border-radius: 8px;
-  width: 280px;
+  width: 380px;
+  font-size: 1.3rem;
 }
 
 .box h3 {
   color: #228b22;
   margin-bottom: 10px;
+  font-size: 1.5rem;
 }
 
 .oferta-lista {
   background-color: #228b22;
   color: white;
-  padding: 30px;
+  padding: 40px;
   border-radius: 10px;
   text-align: center;
 }
@@ -52,15 +55,10 @@
   display: grid;
   gap: 10px;
 }
-
-.oferta-lista li {
-  font-size: 1.1rem;
+.oferta-lista h2 {
+  font-size: 1.8rem;
 }
 
-.oferta-note {
-  text-align: center;
-  font-size: 1rem;
-  color: #333;
-  max-width: 700px;
-  margin: auto;
+.oferta-lista li {
+  font-size: 1.4rem;
 }

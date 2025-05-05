@@ -9,7 +9,14 @@ import imglam from "../assets/galeria/Łamanka.png";
 
 function Home() {
   const today = new Date();
-  const seasonStart = new Date(today.getFullYear(), 4, 1); // 1 czerwca
+  const currentYear = today.getFullYear();
+  const seasonStartThisYear = new Date(currentYear, 4, 1);
+
+  const seasonStart =
+    today >= seasonStartThisYear
+      ? new Date(currentYear + 1, 4, 1)
+      : seasonStartThisYear;
+
   const daysLeft = Math.max(
     0,
     Math.ceil((seasonStart - today) / (1000 * 60 * 60 * 24))
@@ -112,12 +119,12 @@ function Home() {
       <section className="liczniki">
         <div className="licznik">
           <h3>🏕️ Odwiedziło nas</h3>
-          <CountUp end={302586} duration={3} />
+          <CountUp end={30586} duration={5} />
         </div>
 
         <div className="licznik">
           <h3>📆 Dni do sezonu</h3>
-          <CountUp end={daysLeft} duration={3} />
+          <CountUp end={daysLeft} duration={5} />
         </div>
       </section>
     </main>

@@ -37,6 +37,13 @@ function Oferta() {
         </div>
       </section>
 
+      <section className="oferta-galeria">
+        <div className="space"></div>
+        <div className="space"></div>
+        <div className="space"></div>
+        <div className="space"></div>
+      </section>
+
       <section className="oferta-lista">
         <h2>Dlaczego warto?</h2>
         <ul>
@@ -47,13 +54,6 @@ function Oferta() {
           <li>🔥 Miejsce na ognisko i grill</li>
           <li>🧘‍♂️ Idealne miejsce na relaks</li>
         </ul>
-      </section>
-
-      <section className="oferta-note">
-        <p>
-          <strong>Uwaga:</strong> nie posiadamy domków letniskowych – działamy w
-          duchu campingu i bliskości natury 🌿
-        </p>
       </section>
     </main>
   );
