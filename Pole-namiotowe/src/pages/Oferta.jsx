@@ -1,5 +1,78 @@
 import React from "react";
 import "./Oferta.css";
+import galeria1 from "../assets/galeria/img1.jpg";
+import galeria2 from "../assets/galeria/img2.jpg";
+import galeria3 from "../assets/galeria/img3.jpg";
+import galeria4 from "../assets/galeria/img4.jpg";
+import galeria5 from "../assets/galeria/img5.jpg";
+import galeria6 from "../assets/galeria/img6.jpg";
+
+function OfertaGaleria() {
+  const sections = [
+    {
+      left: {
+        img: galeria1,
+        text: "Spokojna przestrzeń namiotowa w otoczeniu natury.",
+      },
+      right: {
+        img: galeria2,
+        text: "Nowoczesne miejsce dla kamperów z dostępem do prądu.",
+      },
+    },
+    {
+      left: {
+        img: galeria3,
+        text: "Bezpieczny plac zabaw dla dzieci w cieniu drzew.",
+      },
+      right: {
+        img: galeria4,
+        text: "Duża wiata z grillem – idealna na chłodne wieczory.",
+      },
+    },
+    {
+      left: {
+        img: galeria5,
+        text: "Kajaki i rowerki wodne dostępne na miejscu.",
+      },
+      right: {
+        img: galeria6,
+        text: "Wspólna strefa relaksu z widokiem na jezioro.",
+      },
+    },
+  ];
+
+  return (
+    <section className="oferta-galeria">
+      {sections.map((section, index) => (
+        <div className={`space sc-${index + 1}`} key={index}>
+          {["left", "right"].map((side) => (
+            <div className={`col-${side}`} key={side}>
+              {side === "right" ? (
+                <>
+                  <div className="row-top">
+                    <img src={section[side].img} alt={`Zdjęcie ${side}`} />
+                  </div>
+                  <div className="row-bot">
+                    <p>{section[side].text}</p>
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="row-top">
+                    <p>{section[side].text}</p>
+                  </div>
+                  <div className="row-bot">
+                    <img src={section[side].img} alt={`Zdjęcie ${side}`} />
+                  </div>
+                </>
+              )}
+            </div>
+          ))}
+        </div>
+      ))}
+    </section>
+  );
+}
 
 function Oferta() {
   return (
@@ -37,12 +110,7 @@ function Oferta() {
         </div>
       </section>
 
-      <section className="oferta-galeria">
-        <div className="space"></div>
-        <div className="space"></div>
-        <div className="space"></div>
-        <div className="space"></div>
-      </section>
+      <OfertaGaleria />
 
       <section className="oferta-lista">
         <h2>Dlaczego warto?</h2>

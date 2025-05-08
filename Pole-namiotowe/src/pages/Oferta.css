@@ -40,6 +40,49 @@
   margin-bottom: 10px;
   font-size: 1.5rem;
 }
+.oferta-galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 90%;
+  width: 1500px;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: #228b22;
+}
+
+.space {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 1500px;
+}
+
+.col-left,
+.col-right {
+  display: flex;
+  width: 50%;
+
+  overflow: hidden;
+}
+
+.row-top img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid #ddd;
+  max-height: 200px;
+}
+
+.row-bot {
+  padding: 20px;
+  background-color: white;
+  font-size: 1.1rem;
+  color: #333;
+  max-height: 200px;
+}
 
 .oferta-lista {
   background-color: #228b22;
