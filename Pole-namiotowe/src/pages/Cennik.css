@@ -55,3 +55,42 @@
   flex-direction: column;
   gap: 10px;
 }
+@media (max-width: 950px) {
+  .cennik-table {
+    font-size: 1.2rem;
+  }
+  .cennik-table th,
+  .cennik-table td {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cennik-table {
+    font-size: 1rem;
+  }
+  .cennik-table th,
+  .cennik-table td {
+    padding: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cennik-table {
+    font-size: 0.9rem;
+  }
+  .cennik-table th,
+  .cennik-table td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 200px) {
+  .cennik-table {
+    font-size: 0.8rem;
+  }
+  .cennik-table th,
+  .cennik-table td {
+    padding: 8px;
+  }
+}

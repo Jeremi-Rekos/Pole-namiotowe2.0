@@ -12,31 +12,31 @@ function OfertaGaleria() {
     {
       left: {
         img: galeria1,
-        text: "Spokojna przestrzeń namiotowa w otoczeniu natury.",
+        text: "Lubisz sportową rywalizację i aktywność na świeżym powietrzu? Skorzystaj z naszych boisk do siatkówki i piłki nożnej! Zorganizuj mecz z rodziną lub poznaj nowych znajomych podczas wspólnej zabawy. U nas każdy znajdzie coś dla siebie – zarówno amatorzy, jak i prawdziwi pasjonaci sportu!",
       },
       right: {
         img: galeria2,
-        text: "Nowoczesne miejsce dla kamperów z dostępem do prądu.",
+        text: "Nasz camping to raj dla rodzin! Dzieci mogą korzystać z bezpiecznych placów zabaw, animacji oraz kąpieliska z łagodnym zejściem do wody. Rodzinne spacery, wspólne gry i zabawy oraz bliskość natury sprawią, że każdy dzień będzie pełen radości i niezapomnianych wspomnień!",
       },
     },
     {
       left: {
         img: galeria3,
-        text: "Bezpieczny plac zabaw dla dzieci w cieniu drzew.",
+        text: "Nic tak nie integruje, jak wspólne ognisko nad brzegiem jeziora! Specjalnie przygotowane paleniska czekają na Ciebie – usiądź z bliskimi przy ogniu, piecz kiełbaski i ciesz się wyjątkową atmosferą letnich wieczorów. To niezapomniane chwile, które zostaną z Tobą na długo!",
       },
       right: {
         img: galeria4,
-        text: "Duża wiata z grillem – idealna na chłodne wieczory.",
+        text: "Komfort i czystość to dla nas priorytet. Na terenie campingu znajdziesz nowoczesne, regularnie sprzątane sanitariaty z prysznicami i toaletami dostosowanymi do potrzeb wszystkich gości, również osób z niepełnosprawnościami. Dbamy o Twój komfort przez cały pobyt!",
       },
     },
     {
       left: {
         img: galeria5,
-        text: "Kajaki i rowerki wodne dostępne na miejscu.",
+        text: "Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszczeBrajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszcze",
       },
       right: {
         img: galeria6,
-        text: "Wspólna strefa relaksu z widokiem na jezioro.",
+        text: "Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszcze Brajan dawaj jeszcze",
       },
     },
   ];

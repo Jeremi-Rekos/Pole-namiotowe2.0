@@ -34,18 +34,14 @@ function Home() {
           <img src={img3} alt="Zdjęcie przedstawiające atrakcje" />
         </div>
         <div className="intro-text">
-          <h2>Tekst Zachęcający do pobytu</h2>
-          <div className="lines lines1"></div>
+          <h2>Cisza, spokój i relaks!</h2>
+
           <p>
-            Zapraszamy do wyjątkowego miejsca wypoczynku. U nas znajdziesz
-            ciszę, naturę i idealne warunki do relaksu. Wspaniała lokalizacja,
-            przestrzeń i komfort!Zapraszamy do wyjątkowego miejsca wypoczynku. U
-            nas znajdziesz ciszę, naturę i idealne warunki do relaksu. Wspaniała
-            lokalizacja, przestrzeń i komfort!idealne warunki do relaksu.
-            Wspaniała lokalizacja, przestrzeń i komfort!Zapraszamy do
-            wyjątkowego miejsca wypoczynku. U nas znajdziesz ciszę, naturę i
-            idealne warunki do relaksu. Wspaniała lokalizacja, przestrzeń i
-            komfort!
+            Odkryj wyjątkowe miejsce nad jeziorem, gdzie natura spotyka się z
+            aktywnym wypoczynkiem! Nasz camping to idealne miejsce na relaks,
+            zabawę i niezapomniane chwile z rodziną lub przyjaciółmi. Czekają na
+            Ciebie malownicze widoki, czysta woda i mnóstwo atrakcji dla
+            każdego!
           </p>
         </div>
       </section>
@@ -56,18 +52,14 @@ function Home() {
           <img src={img5} alt="Zdjęcie przedstawiające atrakcje" />
         </div>
         <div className="double-text">
-          <h2>Kolejny Tekst Zachęcający do pobytu</h2>
-          <div className="lines lines2"></div>
+          <h2>Aktywne wakacje są najlepsze!</h2>
 
           <p>
-            W pobliżu znajduje się jezioro i miejsce na grilla, co sprawia że to
-            idealne miejsce na wakacje z rodziną lub przyjaciółmi. W pobliżu
-            znajduje się jezioro i miejsce na grilla, co sprawia że to idealne
-            miejsce na wakacje z rodziną lub przyjaciółmi. W pobliżu znajduje
-            się jezioro i miejsce na grilla, co sprawia że to idealne miejsce na
-            wakacje z rodziną lub przyjaciółmi. W pobliżu znajduje się jezioro i
-            miejsce na grilla, co sprawia że to idealne miejsce na wakacje z
-            rodziną lub przyjaciółmi.
+            Marzysz o aktywnym wypoczynku na wodzie? Skorzystaj z naszej
+            wypożyczalni sprzętu wodnego! Czekają na Ciebie kajaki, kanoe,
+            rowerki wodne i łódki – idealne na rodzinne wycieczki, romantyczne
+            chwile lub sportowe wyzwania. Poznaj jezioro z zupełnie nowej
+            perspektywy i poczuj wolność na wodzie!
           </p>
         </div>
       </section>
@@ -80,12 +72,12 @@ function Home() {
         <div className="features-list">
           <h4>To wszystko na ciebie czeka!</h4>
           <ul>
-            <li>⛺ Brąz +3</li>
-            <li>🏖 Plaża blisko ośrodka</li>
+            <li>⛺ Ponad 50 parcel!</li>
+            <li>🏖 Plaże blisko ośrodka</li>
             <li>🌲 Piękne lasy w okolicy</li>
-            <li>🔥 Wiatki</li>
-            <li>🎾 5 Poletek na terenie</li>
-            <li>🧘 Cisza i spokój</li>
+            <li>🔥 Pomosty dla wędkarzy(ryba ikona)</li>
+            <li>🎾 Liczne trasy rowerowe(obraz rowera)</li>
+            <li>🧘 Cisza i Spokój</li>
           </ul>
         </div>
       </section>
@@ -97,10 +89,8 @@ function Home() {
         </div>
         <div className="dojazd-text">
           <p>
-            Dojazd jest prosty – kieruj się na jezioro i skręć w prawo za
-            znakiem. Dokładna lokalizacja dostępna poniżej. Dojazd jest prosty –
-            kieruj się na jezioro i skręć w prawo za znakiem. Dokładna
-            lokalizacja dostępna poniżej.
+            Camping Kacper znajduje się w Brennie przy ulicy Wczasowej 2 w
+            kierunku Brenno-Ostrów.
           </p>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4986679963413!2d16.2090612!3d51.927006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4705c3fe5b8a8411%3A0x973a7fdcfe349153!2sCamping%20KACPER!5e1!3m2!1sen!2spl!4v1745942553231!5m2!1sen!2spl"

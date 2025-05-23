@@ -92,3 +92,6 @@
 .formularz button:hover {
   background-color: #1b701b;
 }
+.zaliczka {
+  font-size: 0.9rem;
+}

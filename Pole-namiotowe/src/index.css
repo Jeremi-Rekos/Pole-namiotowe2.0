@@ -57,3 +57,19 @@ body.dark .slogan {
 body.dark .slogan span {
   color: #ffffff;
 }
+body.dark .box {
+  background-color: black;
+}
+body.dark .row-bot p,
+body.dark .row-top p {
+  background-color: #196619;
+}
+body.dark .cennik-table {
+  background-color: #0e0e0e;
+}
+body.dark .cennik-table tr:nth-child(even) {
+  background-color: #242424;
+}
+body.dark .cennik-info {
+  color: #eaeaea;
+}

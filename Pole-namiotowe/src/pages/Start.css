@@ -37,6 +37,19 @@
 
 .intro-text {
   flex: 1 1 400px;
+  font-size: 1.4rem;
+}
+.intro-text h2 {
+  position: relative;
+}
+.intro-text h2::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 950px;
+  background-color: #228b22;
+  top: 100%;
+  left: 0%;
 }
 
 .double {
@@ -46,6 +59,17 @@
 
 .double-text {
   flex: 1 1 400px;
+  font-size: 1.4rem;
+  position: relative;
+}
+.double-text h2::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 1150px;
+  background-color: #228b22;
+  top: 25%;
+  left: -40%;
 }
 
 .features {
@@ -168,19 +192,4 @@ h2 {
   font-size: 20px;
   margin-top: 50px;
   color: #000000;
-}
-.lines {
-  height: 2px;
-  width: 850px;
-  background-color: #228b22;
-}
-.lines1 {
-  position: absolute;
-  top: 205px;
-  right: 0px;
-}
-.lines2 {
-  position: absolute;
-  top: 210px;
-  left: 0px;
 }

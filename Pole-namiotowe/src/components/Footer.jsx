@@ -10,14 +10,14 @@ function Footer() {
         <div className="footer-columns">
           <div className="footer-column">
             <h4>📍 Lokalizacja</h4>
-            <p>ul. Polna 12</p>
-            <p>00-000 Miasteczko</p>
+            <p>ul. Wczasowa 2</p>
+            <p>64-150 Brenno</p>
           </div>
 
           <div className="footer-column">
             <h4>📞 Kontakt</h4>
-            <p>tel. 123 456 789</p>
-            <p>kontakt@campingkacper.pl</p>
+            <p>tel. +48 663 794 686</p>
+            <p>kacper.brenno@Camping.pl</p>
           </div>
 
           <div className="footer-column">

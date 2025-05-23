@@ -25,9 +25,9 @@ function Cennik() {
         <tbody>
           <tr>
             <td>Postawienie</td>
-            <td>10 zł (1-3 os.) / 14 zł (4-5 os.)</td>
-            <td>28 zł</td>
+            <td>14 zł (1-3 os.) / 16 zł (4-5 os.)</td>
             <td>16 zł</td>
+            <td>28 zł</td>
             <td>18 zł</td>
           </tr>
           <tr>
@@ -53,7 +53,7 @@ function Cennik() {
           </tr>
           <tr>
             <td>Prąd</td>
-            <td>18 zł</td>
+            <td>14 zł</td>
             <td>18 zł</td>
             <td>18 zł</td>
             <td>18 zł</td>
@@ -63,15 +63,21 @@ function Cennik() {
 
       <section className="cennik-info">
         <p>
-          💧 Prysznic, WC oraz dostęp do zmywalni naczyń są{" "}
-          <strong>wliczone w cenę</strong>.
+          (Ikonka parkingu) parking na polu namiotowym jest bezpłatny wyłącznie
+          dla gości z przyczepami stacjonarnymi (które stoją u nas cały rok),
+          dla pozostałych- parking płatny 10 zł/doba,
         </p>
         <p>
-          📅 Cennik obowiązuje w sezonie letnim od 1 czerwca do 30 września.
+          Postawienie przyczepy kempingowej na miesiąc:
+          <br />
+          - Od maja do sierpnia 300zł <br />- W pozostałych miesiącach 220zł
         </p>
         <p>
-          📌 Dłuższy pobyt? Skontaktuj się z nami w celu indywidualnej wyceny!
+          Pobyt w Camping Kacper trwa od godziny 14 dnia przyjazdu – do godziny
+          11 ostatniego dnia pobytu. Zapraszamy do wcześniejszej rezerwacji
+          pobytu, ponieważ ilość miejsc na campingu jest ograniczona.
         </p>
+        <p>opłata za zwierzę wynosi 12 zł/doba</p>
       </section>
     </main>
   );
