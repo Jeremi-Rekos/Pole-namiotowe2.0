@@ -98,3 +98,32 @@
 .slogan span {
   color: #228b22;
 }
+@media (max-width: 1150px) {
+  .slogan {
+    font-size: 70px;
+  }
+}
+@media (max-width: 950px) {
+  .slogan {
+    margin-top: 220px;
+    font-size: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .slogan {
+    margin-right: -50px;
+    margin-top: 300px;
+    font-size: 40px;
+  }
+  .logo {
+    height: 250px;
+    width: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .slogan {
+    margin-right: 0px;
+    margin-top: 350px;
+    font-size: 30px;
+  }
+}

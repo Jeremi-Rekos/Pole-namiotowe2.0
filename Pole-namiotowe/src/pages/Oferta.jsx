@@ -29,16 +29,6 @@ function OfertaGaleria() {
         text: "Komfort i czystość to dla nas priorytet. Na terenie campingu znajdziesz nowoczesne, regularnie sprzątane sanitariaty z prysznicami i toaletami dostosowanymi do potrzeb wszystkich gości, również osób z niepełnosprawnościami. Dbamy o Twój komfort przez cały pobyt!",
       },
     },
-    {
-      left: {
-        img: galeria5,
-        text: "Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszczeBrajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszcze",
-      },
-      right: {
-        img: galeria6,
-        text: "Brajan dawaj jeszcze Brajan dawaj jeszcze Brajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszczeBrajan dawaj jeszcze Brajan dawaj jeszcze",
-      },
-    },
   ];
 
   return (

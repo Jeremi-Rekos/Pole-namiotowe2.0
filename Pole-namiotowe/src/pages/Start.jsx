@@ -75,8 +75,8 @@ function Home() {
             <li>⛺ Ponad 50 parcel!</li>
             <li>🏖 Plaże blisko ośrodka</li>
             <li>🌲 Piękne lasy w okolicy</li>
-            <li>🔥 Pomosty dla wędkarzy(ryba ikona)</li>
-            <li>🎾 Liczne trasy rowerowe(obraz rowera)</li>
+            <li>🔥 Pomosty dla wędkarzy</li>
+            <li>🎾 Liczne trasy rowerowe</li>
             <li>🧘 Cisza i Spokój</li>
           </ul>
         </div>

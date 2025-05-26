@@ -193,3 +193,22 @@ h2 {
   margin-top: 50px;
   color: #000000;
 }
+@media (max-width: 1350px) {
+  .features-list li {
+    font-size: 2rem;
+    line-height: 5rem;
+  }
+}
+
+@media (max-width: 1230px) {
+  .features-list li {
+    font-size: 3.5rem;
+    line-height: 6.6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .grey-box {
+    display: none;
+  }
+}
