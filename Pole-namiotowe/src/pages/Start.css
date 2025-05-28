@@ -189,7 +189,7 @@ h2 {
 .dojazd-text p {
   text-align: center;
   padding: 30px;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 50px;
   color: #000000;
 }
@@ -210,5 +210,46 @@ h2 {
 @media (max-width: 500px) {
   .grey-box {
     display: none;
+  }
+  .features-list li {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+  .features-list {
+    height: 500px;
+    font-size: 35px;
+  }
+  .double-text h2 {
+    font-size: 30px;
+  }
+  .double-text p {
+    font-size: 20px;
+  }
+  .intro-text h2 {
+    font-size: 30px;
+  }
+  .intro-text p {
+    font-size: 20px;
+  }
+  .features-image img {
+    width: 150%;
+    margin: 0px;
+  }
+  .double-text h2::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 1150px;
+    background-color: #228b22;
+    top: 20%;
+    left: -40%;
+  }
+  .img10 {
+    display: none;
+  }
+  .img15 {
+    max-width: 100%;
+    max-height: 100px;
+    border: none;
   }
 }
